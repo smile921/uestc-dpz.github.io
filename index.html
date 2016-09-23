@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{% include header-index.html %}
+<script>
+    (function ($) {
+        "use strict";
+
+        $(document).ready(function(){
+
+            var $window = $(window),
+                $image = $('.teaserimage-image');
+            $window.on('scroll', function() {
+                var top = $window.scrollTop();
+
+                if (top < 0 || top > 1500) { return; }
+                $image
+                    .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                    .css('opacity', 1-Math.max(top/700, 0));
+            });
+            $window.trigger('scroll');
+
+        });
+
+    }(jQuery));
+
+    function wechat() {
+      $.layer({
+        type: 1,
+        title: false,
+        border: [0],
+        area: ['270px', '270px'],
+        page: {
+            html: '<div style="background-color:#fff; padding:20px; text-align:center; margin:0 auto;"><img src="/assets/images/qrcode_wechat.jpg"></div>'
+        }
+      });
+    }
+</script>
+
+<main class="content" role="main">
+
+    {% if site.tags.featured %}
+    <h5 class="index-headline featured"><span>置顶</span></h5>
+
+    <div class="container featured">
+      {% for post in site.tags.featured %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <div class="post-meta">
+                  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+            </div>
+            <div class="post-drawing">
+                <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
+            </div>
+            <section class="post-excerpt" itemprop="description">
+              <p>
+                {{ post.content | strip_html | truncatewords: 2 }}
+              </p>
+            </section>
+          <div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <h5 class="index-headline normal"><span></span></h5>
+    {% endif %}
+
+    <div class="cf frame">
+      {% for post in paginator.posts %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <div class="post-meta">
+              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+            </div>
+            <div class="post-drawing">
+                <a href="{{ post.url }}"><img src="{{ post.image | prepend: site.baseurl }}"></a>
+            </div>
+            <section class="post-excerpt" itemprop="description">
+              <p>
+                {{ post.content | strip_html | truncatewords: 2 }}
+              </p>
+            </section>
+          <div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <nav class="pagination" role="navigation">
+      {% if paginator.next_page %}
+        <a class="newer-posts" href="/page{{paginator.next_page}}"> << 上一页 </a>
+      {% endif %}
+      <span class="page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+      {% if paginator.previous_page %}
+        {% if paginator.page == 2 %}
+          <a class="older-posts" href="/"> 下一页 >> </a>
+        {% else %}
+          <a class="older-posts" href="/page{{paginator.previous_page}}"> 下一页 >> </a>
+        {% endif %}
+      {% endif %}
+    </nav>
+
+</main>

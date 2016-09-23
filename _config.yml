@@ -1,0 +1,47 @@
+# Build settings
+highlighter: rouge
+
+# Site settings
+title: "Dream&Smile"
+description: > # this means to ignore newlines until "email:"
+   Stay hungry，stay foolish
+
+email: uestc_dpz@163.com
+# blog logo
+logo: "/assets/images/avatar.jpg"
+# blog cover
+cover: "/assets/images/cover.jpg"
+cover_post: "/assets/images/cover-post.jpg"
+cover_about: "/assets/images/cover-about.jpg"
+cover_book: "/assets/images/cover-book.jpg"
+cover_collect: "/assets/images/cover-collect.jpg"
+cover_slide: "/assets/images/cover-slide.jpg"
+cover_archive: "/assets/images/cover-archive.jpg"
+
+
+name: 'Dream&Smile'
+author: 'Dream&Smile'
+author_image: "/assets/images/avatar.jpg"
+
+# paginate:	4
+paginate:	4
+
+url: "https://uestc-dpz.github.io/blog_demo/" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon: archive
+    url:  /archive
+
+  - icon: files-o
+    url:  /collect
+
+  - icon: book
+    url:  /book
+
+  - icon: film
+    url:  /slide
+
+gems :
+  - jekyll-paginate
