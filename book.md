@@ -35,6 +35,7 @@ image    : /assets/images/book.jpg
   - 2015-03-06 [1980年代的爱情](https://book.douban.com/subject/25696089/)
   - 2015-02-02 [皮囊](https://book.douban.com/subject/26278687/)
   - 2015-01-21 [追风筝的人](https://book.douban.com/subject/1770782/)
+
 ## 2014之前
 -------------------------------------------------------------------------------
   - 2014-11-01 [Thinking in java](https://book.douban.com/subject/2130190/)
