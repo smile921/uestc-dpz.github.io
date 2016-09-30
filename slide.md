@@ -8,6 +8,6 @@ image    : /assets/images/slide.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
-  - 2016-04-27 [link](/slide/微服务的理论模型和现实路径.pdf)
-    `introduction`
+  - 2016-07-03 [Cambodia-Angor Wat](/blog/2016/07/03/angkorwat.html)
+    `柬埔寨`
 
