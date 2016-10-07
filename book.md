@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-10-06 [彼得林奇的成功投资](https://book.douban.com/subject/1958714/)
   - 2016-09-21 [解读基金](https://book.douban.com/subject/2051332/) & [读书笔记]()
   - 2016-08-12 [泛若不系之舟](https://book.douban.com/subject/25920202/)
   - 2016-06-17 [吴哥之美](https://book.douban.com/subject/25918820/)
