@@ -2,7 +2,7 @@
 layout   : about
 title    : 关于我们
 date     : 2016-09-21
-author   : Dream&Smile
+author   : 聂与高
 permalink: /about/wink/
 image    : /assets/images/we.jpg
 ---
