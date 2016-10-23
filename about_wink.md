@@ -2,7 +2,7 @@
 layout   : about
 title    : 关于我们
 date     : 2016-09-21
-author   : Dream&Smile
+author   : Nie&Gao
 permalink: /about/wink/
 image    : /assets/images/we.jpg
 ---
@@ -10,8 +10,8 @@ image    : /assets/images/we.jpg
 
 关于我们。
 我家有两个人, 一个是程序员, 另一个还是程序员。
-有吃,有玩,有彼此~
-I promise, you believe, we together~
+有吃,有玩,有彼此。
+I promise, you believe, we together。
 
 
 博客的内容分四类：
