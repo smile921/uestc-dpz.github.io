@@ -2,7 +2,7 @@
 layout   : about
 title    : 关于
 date     : 2016-09-20
-author   : Dream&Smile
+author   : Nie&Gao
 permalink: /about/
 image    : /assets/images/we.jpg
 ---
