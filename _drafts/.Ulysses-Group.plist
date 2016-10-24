@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>childOrder</key>
+	<array/>
 	<key>resolutionData</key>
 	<dict>
+		<key>childOrder</key>
+		<dict/>
 		<key>sheetClusters</key>
 		<dict>
 			<key>解读基金.md</key>
 			<dict>
 				<key>lastModification</key>
-				<real>496468154.01986998</real>
+				<real>496487974.02146</real>
 				<key>version</key>
 				<dict>
 					<key>e7326b8a7484d78f1a6ce59184bb51c231784e6efb82e95522a6f62f2fa3b504</key>
-					<integer>2</integer>
+					<integer>11</integer>
 				</dict>
 			</dict>
 		</dict>
@@ -28,10 +32,15 @@
 	<integer>1</integer>
 	<key>versioning</key>
 	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>e7326b8a7484d78f1a6ce59184bb51c231784e6efb82e95522a6f62f2fa3b504</key>
+			<integer>1</integer>
+		</dict>
 		<key>sheetClusters</key>
 		<dict>
 			<key>e7326b8a7484d78f1a6ce59184bb51c231784e6efb82e95522a6f62f2fa3b504</key>
-			<integer>2</integer>
+			<integer>13</integer>
 		</dict>
 	</dict>
 </dict>

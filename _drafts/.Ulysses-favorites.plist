@@ -3,11 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>order</key>
-	<array/>
+	<array>
+		<string>2016-10-17-JVM调试工具入门.md</string>
+	</array>
 	<key>resolutionData</key>
 	<dict>
 		<key>order</key>
-		<dict/>
+		<dict>
+			<key>2016-10-17-JVM调试工具入门.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>498898211.98071802</real>
+				<key>lastModification</key>
+				<real>498898211.98071802</real>
+				<key>version</key>
+				<dict>
+					<key>e7326b8a7484d78f1a6ce59184bb51c231784e6efb82e95522a6f62f2fa3b504</key>
+					<integer>14</integer>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
@@ -16,7 +33,7 @@
 		<key>order</key>
 		<dict>
 			<key>e7326b8a7484d78f1a6ce59184bb51c231784e6efb82e95522a6f62f2fa3b504</key>
-			<integer>1</integer>
+			<integer>14</integer>
 		</dict>
 	</dict>
 </dict>
