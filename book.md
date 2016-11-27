@@ -8,6 +8,7 @@ image    : /assets/images/book.jpg
 
 ## 2016
 -------------------------------------------------------------------------------
+  - 2016-11-06 [程序员修炼之道 从小工到专家](https://book.douban.com/subject/5387402/) & [读书笔记](https://uestc-dpz.github.io/blog/2016/11/06/%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6.html)
   - 2016-10-06 [彼得林奇的成功投资](https://book.douban.com/subject/1958714/)
   - 2016-09-21 [解读基金](https://book.douban.com/subject/2051332/) & [读书笔记]()
   - 2016-08-12 [泛若不系之舟](https://book.douban.com/subject/25920202/)

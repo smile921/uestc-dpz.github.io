@@ -7,7 +7,6 @@ categories: blog
 tags      : Java
 <!-- image     : /assets/article_images/2016-10-17.jpg -->
 ---
-<!-- _ 「jstat,  jmap, jstack」_ -->
 
 ##引言
 接着上一篇来说[执行入口的分析][1]，`CliDriver`最终将用户指令`command`提交给了`Driver`的`run`方法（针对常用查询语句而言），在这里用户的`command`将会被编译，优化并生成MapReduce任务进行执行。所以`Driver`也是Hive的核心，他扮演了一个将用户查询和MapReduce Task转换并执行的角色，下面我们就看看Hive是如何一步一步操作的。
@@ -321,7 +320,8 @@ private CommandProcessorResponse createProcessorResponse(int ret) {
 
 ```
 
-想更一进步的支持我，请扫描下方的二维码，你懂的~
+想更一进步的支持我，请扫描下方的二维码，你懂的~  
+
 ![图片描述][3]
 
 
