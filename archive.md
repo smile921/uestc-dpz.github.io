@@ -8,6 +8,7 @@ image    : /assets/images/archive.jpg
 
 ## 成长路
 ---------------------------------------------------------------------------  
+- [Nginx配置反向代理服务器](https://uestc-dpz.github.io/blog/2016/12/12/Nginx%E9%85%8D%E7%BD%AE%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8.html)
 - [Nginx配置静态web服务器](https://uestc-dpz.github.io/blog/2016/12/12/Nginx%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81web%E6%9C%8D%E5%8A%A1%E5%99%A8.html)
 - [指令重排序](https://uestc-dpz.github.io/blog/2016/11/17/Reordering.html)
 - [从小工到专家](https://uestc-dpz.github.io/blog/2016/11/06/%E4%BB%8E%E5%B0%8F%E5%B7%A5%E5%88%B0%E4%B8%93%E5%AE%B6.html)
