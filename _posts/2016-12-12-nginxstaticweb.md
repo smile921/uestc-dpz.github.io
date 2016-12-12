@@ -5,7 +5,7 @@ date      : 2016-12-12
 author    : GSM
 categories: blog             
 tags      :
-image     : /assets/article_images/NGINX_logo_rgb-01.png
+image     : /assets/article_images/nginx.jpg
 elapse    :
 ---
 _ 「Nginx」_
