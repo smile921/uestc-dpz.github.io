@@ -11,6 +11,7 @@ elapse    :
 _ 「Nginx」_
 
 #### 写在前面
+
 本文是陶辉的<<深入理解Nginx>>和[tengine](http://tengine.taobao.org/book/chapter_02.html#id6)的读书笔记。
 主要是对自己开发Nginx一个最简单的HTTP模块demo的总结。之前在网上也看了些相关技术贴，
 发现几乎都没有给出了完整的，编译没有报错的示例。有别于其他，本文贴出完整代码示例（nginx.cong/config文件/模块代码文件），
@@ -71,6 +72,7 @@ http {
     }
 }
 ```
+
 ### 1、 创建config文件
 
 config定义三个变量
@@ -316,10 +318,10 @@ HTTP框架提供了`ngx_create_temp_buf(r->pool, 128)`方法分配内存。
 5. 重启nginx.conf
 
 6. 结果
-![](/assets/article_images/techarticles/moduleExample.jpg.png)  
+![](/assets/article_images/techarticles/moduleExample.jpg)  
 
 
-###参考
+### 参考
 
 
 1. 深入理解Nginx  陶辉[著] 出版社: 机械工业出版社
