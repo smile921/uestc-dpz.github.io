@@ -9,11 +9,13 @@ image     : /assets/article_images/nginx.jpg
 elapse    :
 ---
 _ 「Nginx」_
+
 #### 写在前面
 本文是陶辉的<<深入理解Nginx>>和[tengine](http://tengine.taobao.org/book/chapter_02.html#id6)的读书笔记。
 主要是对自己开发Nginx一个最简单的HTTP模块demo的总结。之前在网上也看了些相关技术贴，
 发现几乎都没有给出了完整的，编译没有报错的示例。有别于其他，本文贴出完整代码示例（nginx.cong/config文件/模块代码文件），
 经过实验证明，可以编译成功。
+
 ### Nginx
 Nginx的内部结构是由核心部分和一系列的功能模块所组成。核心部分实现了底层的通讯协议，为其他模块和nginx进程构建了基本
 的运行环境，并且构建了其他各模块的协作基础。除此之外，应用相关的功能都是在功能模块中实现的。（[引自tengine](http://tengine.taobao.org/book/chapter_02.html#id6)）
@@ -300,17 +302,20 @@ HTTP框架提供了`ngx_create_temp_buf(r->pool, 128)`方法分配内存。
 
 ### 3. 实验
 
-- mkdir一个文件夹，将源代码文件（`ngx_http_mytest_module.c`）全部放到一个目录下(/home/gsm/ngixdev/module), 同时
+1. mkdir一个文件夹，将源代码文件（`ngx_http_mytest_module.c`）全部放到一个目录下(/home/gsm/ngixdev/module), 同时
 在该目录中编写一个config文件用于通知Nginx如何编译本模块。
-
 ![](/assets/article_images/techarticles/module1.png) 
-在configure文件夹，输入configure命令，编译 
+
+2. 在configure文件夹，输入configure命令，编译 
 ![](/assets/article_images/techarticles/configure.png)  
-输入make
 
-输入install
+3. 输入make
 
-重启nginx.conf
+4. 输入make install
+
+5. 重启nginx.conf
+
+6. 结果
 ![](/assets/article_images/techarticles/moduleExample.jpg.png)  
 
 
