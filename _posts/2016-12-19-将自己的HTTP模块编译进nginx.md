@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : 将自己的HTTP模块编译进nginx
+title     : 将自己的HTTP模块编译进Nginx
 date      : 2016-12-19
 author    : GSM
 categories: blog             
