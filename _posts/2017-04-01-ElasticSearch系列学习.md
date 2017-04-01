@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : ElasticSearch系列学习
+title     : ElasticSearch系列学习-01
 date      : 2017-04-01
 author    : GSM
 categories: blog             
